@@ -1,0 +1,43 @@
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+  }
+
+  .font {
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: lighter;
+    font-weight: 0.1;
+  }
+
+  .title{
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: lighter;
+    font-weight: 0.1;
+    font-size: 15px;
+    color:#787878;
+  }
+
+  .smallfont{
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: lighter;
+    font-weight: 0.1;
+    font-size: 12px;
+  }
+
+ 

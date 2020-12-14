@@ -9,7 +9,7 @@
    */
 
    .body{
-    overflow: hidden;
+    overflow: hidden !important; 
     margin: 1%;
    }
 
@@ -344,9 +344,9 @@
   width: 50%;
 }
 .sideprojimg{
-  width: 70%;
+  width: 68%;
   /* margin-left: 15%; */
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .sideprojimg2{

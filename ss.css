@@ -7,6 +7,12 @@
     width: 100%;
   }
    */
+
+   .body{
+    overflow: hidden;
+    margin: 1%;
+   }
+
   .middle {
     display: table-cell;
     vertical-align: middle;
@@ -289,7 +295,7 @@
 
 .bar .progline span:after{
   position: absolute;
-  right:-60;
+  right:-63;
   top:-28px;
   color: #fff;
   font-size: 12px;
@@ -339,7 +345,7 @@
 }
 .sideprojimg{
   width: 70%;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   margin-right: auto;
 }
 

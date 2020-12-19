@@ -18,6 +18,7 @@
     vertical-align: middle;
     /* text-align: center; */
   }
+
   
   .inner {
     margin-left: auto;
@@ -38,6 +39,7 @@
     font-weight: 0.1;
     font-size: 15px;
     color:#787878;
+    margin-left: 0.8%;
   }
 
   .smallfont{
@@ -118,13 +120,6 @@
   input[type ="checkbox"]:checked ~ .check:after{
     transform:translateX(0px);
   }
-
-  /* .container {
-    display: flex;
-  }
-  .container > div {
-    flex: 1; 
-  } */
 
   .middlediv{
     margin-left: auto;
@@ -365,7 +360,8 @@
 }
 
 .iconmarg{
-  margin-right: 2%;
+  margin-right: 1.5%;
+  margin-left: 1%;
 }
 
 
@@ -528,4 +524,12 @@
 
 .bottom{
   vertical-align:bottom;
+}
+
+.newfont {
+  font-family: 'Quicksand', serif;
+}
+
+.iconbox{
+  margin-left: 1%;
 }

@@ -121,6 +121,17 @@
     transform:translateX(0px);
   }
 
+  .container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content:center;
+  }
+
+  .container2 > * {
+    margin-top: 40px;
+  }
+
   .middlediv{
     margin-left: auto;
     margin-right: auto;
@@ -129,7 +140,8 @@
 
   .codebox {
     padding: 25px 50px;
-    box-shadow: 0px 7px 16px rgba(0,0,0,0.12);
+    /* box-shadow: 0px 7px 16px rgba(0,0,0,0.12); */
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     background-color: #fff;
     border-radius: 25px;
     max-width: 850px;
@@ -189,7 +201,8 @@
   background: #fff;
   border-radius: 10px;
   padding: 25px 30px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  /* box-shadow: 5px 5px 10px rgba(0,0,0,0.2); */
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .skillbar .bar{
@@ -391,7 +404,8 @@
   background: #fff;
   border-radius: 10px;
   padding: 25px 50px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  /* box-shadow: 5px 5px 10px rgba(0,0,0,0.2); */
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .outside {
@@ -530,6 +544,43 @@
   font-family: 'Quicksand', serif;
 }
 
+.name{
+  font-weight: 800;
+  font-size: 6vh;
+}
+
 .iconbox{
   margin-left: 1%;
+}
+
+.imagebox{
+  width: 170px;
+  height: 170px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  line-height: 0;
+  font-size:0;
+}
+
+.imagebox img{
+  width: auto;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 55%;
+  border: 5px solid #787878;
+  padding: 0;
+}
+
+.fahover:hover{
+  color: #787878;
+}
+
+.fahover i:hover{
+color: #787878;
+}
+
+.fahover i before:hover{
+color: #787878;
 }

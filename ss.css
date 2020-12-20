@@ -304,7 +304,7 @@
 
 .bar .progline span:after{
   position: absolute;
-  right:-63;
+  right:-60;
   top:-28px;
   color: #fff;
   font-size: 12px;

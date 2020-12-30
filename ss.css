@@ -268,7 +268,7 @@
 }
 
 .bar .progline.Javascript span{
-  width: 65%;
+  width: 57.5%;
   background: #f0db4f;
 }
 
@@ -331,7 +331,7 @@
 }
 
 .bar .progline.Javascript span:after{
-  content:"6 Months";
+  content:"5 Months";
 }
 
 .bar .progline.HC span:after{

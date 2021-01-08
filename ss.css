@@ -537,6 +537,17 @@
   background-image: url('images/CryptoPi1.jpg');
 }
 
+.cards .card-image4 {
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+  opacity: 0.91;
+  background-image: url('images/Essential.png');
+}
+
 .bottom{
   vertical-align:bottom;
 }

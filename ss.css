@@ -263,12 +263,12 @@
 }
 
 .bar .progline.Java span{
-  width: 70%;
+  width: 85%;
   background: #f89820;
 }
 
 .bar .progline.Javascript span{
-  width: 57.5%;
+  width: 65%;
   background: #f0db4f;
 }
 
@@ -285,6 +285,11 @@
 .bar .progline.CSharp span{
   width: 50%;
   background: #6a1577;
+}
+
+.bar .progline.CPP span{
+  width: 10%;
+  background: #00589D;
 }
 
 .bar .progline span:before{
@@ -327,11 +332,11 @@
 }
 
 .bar .progline.Java span:after{
-  content:"7 Months";
+  content:"8 Months";
 }
 
 .bar .progline.Javascript span:after{
-  content:"5 Months";
+  content:"6 Months";
 }
 
 .bar .progline.HC span:after{
@@ -344,6 +349,10 @@
 
 .bar .progline.CSharp span:after{
   content:"4 months";
+}
+
+.bar .progline.CPP span:after{
+  content:"2 months";
 }
 
 .sideproj{

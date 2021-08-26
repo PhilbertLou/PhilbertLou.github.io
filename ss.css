@@ -336,7 +336,7 @@ input[type='checkbox']:checked ~ .check:after {
 }
 
 .bar .progline.Javascript span:after {
-  content: '10 Months';
+  content: '10 Months T';
 }
 
 .bar .progline.Java span:after {

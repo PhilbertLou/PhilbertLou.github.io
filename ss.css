@@ -564,6 +564,17 @@ input[type='checkbox']:checked ~ .check:after {
   background-image: url('images/Essential.png');
 }
 
+.cards .card-image5 {
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+  opacity: 0.91;
+  background-image: url('images/PP.png');
+}
+
 .bottom {
   vertical-align: bottom;
 }

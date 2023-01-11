@@ -297,7 +297,7 @@ input[type='checkbox']:checked ~ .check:after {
 }
 
 .bar .progline.Go span {
-  width: 30%;
+  width: 31%;
   background: #29BEB0;
 }
 

@@ -292,8 +292,13 @@ input[type='checkbox']:checked ~ .check:after {
 }
 
 .bar .progline.CPP span {
-  width: 50%;
+  width: 75%;
   background: #00589d;
+}
+
+.bar .progline.Go span {
+  width: 30%;
+  background: #29BEB0;
 }
 
 .bar .progline span:before {
@@ -332,11 +337,15 @@ input[type='checkbox']:checked ~ .check:after {
 }
 
 .bar .progline.Python span:after {
-  content: '16 Months';
+  content: '20 Months';
 }
 
 .bar .progline.Javascript span:after {
-  content: '12 Months';
+  content: '16 Months';
+}
+
+.bar .progline.CPP span:after {
+  content: '12 months';
 }
 
 .bar .progline.Java span:after {
@@ -352,16 +361,17 @@ input[type='checkbox']:checked ~ .check:after {
 }
 
 .bar .progline.C span:after {
-  content: '4 Months';
+  content: '5 Months';
 }
 
 .bar .progline.CSharp span:after {
   content: '4 months';
 }
 
-.bar .progline.CPP span:after {
-  content: '4 months';
+.bar .progline.Go span:after {
+  content: '2 months';
 }
+
 
 .sideproj {
   display: block;
